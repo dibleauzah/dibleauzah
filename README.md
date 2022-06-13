@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @dibleauzah
-- 👀 I’m interested in web-development and data-science! :-)
-- 🌱 I’m currently learning: 1)--General full-stack web-dev fundamentals--especially JavaScript-based stacks (esp. MERN), 2)--Algorithmns, 3)--The "trouble-trio" of basic web-dev--as in, HMTL, CSS & JS, 3)--Python, etc.
-- 💞️ I’m looking to collaborate on **simple (!!!)** projects that can help me "learn the ropes"!
+- 👋 Hi, I’m Seif Sekalala (handle: @dibleauzah)
+- 👀 I’m interested in web-development, project-management, data-science, and communication/social-science research.
+- 🌱 I’m currently learning: 1)--General full-stack web-development. Particular areas of focus: 1)--JavaScript-based stacks (e.g. MERN/MEAN), 2)--Algorithmns and data-structures, 3)--Basic front-end web-development via HMTL, CSS & JavaScript, and 4)--Python and other backend languages, libraries, and other tools, etc.
+- 💞️ I’m looking to collaborate on projects that can help me keep honing my skills, e.g. my work as PM and software-development apprentice with the PHLASK project--please refer to the relevant repo for details!
 - 📫 How to reach me: dibleauzah@gmail.com, or "Seif Sekalala" on LinkedIn! :-)
 
 <!---
