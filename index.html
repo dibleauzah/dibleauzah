@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SDK-AE&A</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #ff8c00;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    header {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      padding: 1rem;
+    }
+    .menu {
+      cursor: pointer;
+      width: 30px;
+    }
+    .menu div {
+      height: 3px;
+      background: #ff8c00;
+      margin: 5px 0;
+    }
+    nav {
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background: #000;
+      border: 1px solid #ff8c00;
+      display: none;
+      flex-direction: column;
+    }
+    nav a {
+      padding: 0.5rem 1rem;
+      color: #ff8c00;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #ff8c00;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="menu" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav id="navMenu">
+      <a href="#">About</a>
+      <a href="#">Sign In</a>
+    </nav>
+  </header>
+  <h1>Welcome (Back) to SDK-AE&A!</h1>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('navMenu');
+      menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+    }
+  </script>
+</body>
+</html>
